@@ -524,7 +524,7 @@ export default function Home() {
                 <Github className="w-5 h-5 mr-2" />
                 GitHub
               </motion.a>
-              <motion.a
+              {/* <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="https://www.buymeacoffee.com/yourname"
@@ -534,7 +534,7 @@ export default function Home() {
               >
                 <Coffee className="w-5 h-5 mr-2" />
                 Buy me a coffee
-              </motion.a>
+              </motion.a> */}
             </div>
 
             <motion.div
@@ -805,9 +805,9 @@ export default function Home() {
               <a href="mailto:arkaghosh0115@gmail.com" className="text-gray-400 hover:text-cyan-400 transition">
                 <Mail className="w-5 h-5" />
               </a>
-              <a href="https://www.buymeacoffee.com/yourname" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-yellow-400 transition">
+              {/* <a href="https://www.buymeacoffee.com/yourname" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-yellow-400 transition">
                 <Coffee className="w-5 h-5" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
